@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UC2_HashTable
+namespace UC3_HashTable
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace UC2_HashTable
                 key++;
             }
             Operation operation = new Operation();
-            operation.Frequency(hash);
+            operation.Remove(hash, "avoidable");
         }
     }
 }
